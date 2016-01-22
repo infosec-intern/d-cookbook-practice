@@ -2,7 +2,7 @@ import std.stdio : writeln;;;
 
 void main() {
   writeln("Core Tasks!");
-//  arrays();
+  arrays();
   assoc_arrays();
 }
 
