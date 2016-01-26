@@ -48,5 +48,10 @@ int main() {
 	add = new BrokenAddExpression(1,2);
 	write("brokenAdd: ");
 	printResult(add);	// prints -1
+	if(auto bae = cast(BrokenAddExpression) expression) {
+		/* we were passed an instance of BrokenAddExpression
+		and can now use the bae variable to access its specfic
+		members */
+	} else { /* we were passed some other class */ }
 	return 1;
 }
