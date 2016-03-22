@@ -10,3 +10,5 @@ Examples from the aforementioned book as I work through them
 5. *myException.d*
 6. *fileException.d*
 7. *stringslicing.d*
+8. *Expression.d*
+9. *phobosPractice.d*
